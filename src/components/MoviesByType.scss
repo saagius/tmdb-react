@@ -1,0 +1,33 @@
+.movies-by-type {
+    &.view {
+        padding: 0 10px;
+        margin: 93px auto auto;
+        position: fixed;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        max-height: calc(100% - 93px);
+        .movies-wrapper {
+            display: flex;
+            max-height: 100%;
+            overflow: hidden;
+            .movies {
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin-left: 20px;
+                overflow: auto;
+            }
+        }
+    }
+    &:not(.view) {
+        .movies {
+            overflow: auto;
+        }
+    }
+    h2 {
+        margin: 0 0 10px 0;
+    }
+    .movies {
+        display: flex;
+    }
+}

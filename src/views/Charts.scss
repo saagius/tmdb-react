@@ -1,0 +1,22 @@
+.charts-view {
+    padding: 0 10px;
+    margin: 93px auto auto;
+    position: fixed;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    height: calc(100% - 93px);
+    width: calc(100% - 20px);
+    h2 {
+        margin: 0 0 10px 0;
+    }
+    .chart-wrapper {
+        display: flex;
+        max-height: 100%;
+        flex-grow: 1;
+        flex-direction: column;
+        .chart {
+            flex-basis: 50%;
+        }
+    }
+}

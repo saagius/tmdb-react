@@ -1,0 +1,15 @@
+.login-view {
+    padding: 0 10px;
+    margin: 93px auto auto;
+    display: flex;
+    justify-content: center;
+    .login {
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid;
+        cursor: pointer;
+        &:hover {
+            background-color: white;
+        }
+    }
+}

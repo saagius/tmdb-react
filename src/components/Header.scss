@@ -1,0 +1,15 @@
+header {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    background: #eee;
+    width: calc(100% - 20px);
+    z-index: 10000;
+    a {
+        text-decoration: none;
+        color: black;
+        &:not(:first-child) {
+            margin-left: 10px;
+        }
+    }
+}
