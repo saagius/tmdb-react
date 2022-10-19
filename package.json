@@ -20,7 +20,7 @@
     "accounting": "^0.4.1",
     "d3": "^5.16.0",
     "env-cmd": "^10.1.0",
-    "moment": "^2.25.3",
+    "moment": "^2.29.4",
     "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-autocomplete": "^1.8.1",
